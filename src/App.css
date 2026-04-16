@@ -1,11 +1,8 @@
-/* Main App Styles */
 .app {
   min-height: 100vh;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   color: white;
 }
-
-/* Header Styles */
 .header {
   text-align: center;
   padding: 40px 20px 20px;
@@ -21,8 +18,6 @@
   color: #a0a0a0;
   margin: 0;
 }
-
-/* Search Section */
 .search-section {
   display: flex;
   justify-content: center;
@@ -65,8 +60,6 @@
 .search-btn:hover {
   background: #ff6b6b;
 }
-
-/* Messages */
 .error-message {
   text-align: center;
   color: #ff6b6b;
@@ -78,8 +71,6 @@
   color: #a0a0a0;
   padding: 20px;
 }
-
-/* Movies Container */
 .movies-container {
   padding: 20px;
   max-width: 1200px;
@@ -91,8 +82,6 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
 }
-
-/* Movie Card */
 .movie-card {
   background: white;
   border-radius: 10px;
@@ -140,15 +129,11 @@
   margin: 0;
   text-transform: uppercase;
 }
-
-/* Empty State */
 .empty-state {
   text-align: center;
   padding: 60px 20px;
   color: #a0a0a0;
 }
-
-/* Modal Styles */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -192,8 +177,6 @@
 .close-btn:hover {
   background: #ff6b6b;
 }
-
-/* Details Container */
 .details-container {
   display: flex;
   padding: 30px;
@@ -227,8 +210,6 @@
 .details-info strong {
   color: #1a1a2e;
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
   .header h1 {
     font-size: 28px;
